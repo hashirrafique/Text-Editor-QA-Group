@@ -42,9 +42,12 @@ For detailed instructions, usage guidelines, and a comprehensive feature report,
 ## Issue #2 – TF-IDF positive case
 - TODO: Add positive TF-IDF test (manual ±0.01)
 
-## Issue #4 — TF-IDF negative case
+## Issue #4 — TF-IDF Negative Case
 
-Test ensures system handles:
+Test verifies:
 - Empty string input
-- Special characters only
-Expected: No crash, zero or safe output.
+- Special characters only input
+Expected:
+- No crash
+- TF-IDF returns zero or safe value
+
