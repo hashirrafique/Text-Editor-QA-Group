@@ -39,3 +39,6 @@ For detailed instructions, usage guidelines, and a comprehensive feature report,
 ---
 ## Added Auto-Save boundary test task (Issue #1)
 
+## Issue #2 – TF-IDF positive case
+- TODO: Add positive TF-IDF test (manual ±0.01)
+
