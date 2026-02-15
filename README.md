@@ -53,4 +53,16 @@ Expected:
 ## Issue #6 – Hash integrity (MD5/SHA1)
 - TODO: Add test to verify hash output matches expected for known input.
 - Expected: Correct MD5/SHA1 value, consistent results, no crash.
+## Issue #5 – ImportCommand execute() Test
+
+Test verifies:
+
+- execute() correctly imports file content.
+- File content is loaded into editor.
+- No exception occurs for valid file.
+- Proper error handling for invalid path.
+
+Expected:
+- Imported text matches file content.
+- No crash.
 
