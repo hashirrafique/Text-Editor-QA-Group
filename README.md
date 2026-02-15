@@ -50,4 +50,7 @@ Test verifies:
 Expected:
 - No crash
 - TF-IDF returns zero or safe value
+## Issue #6 – Hash integrity (MD5/SHA1)
+- TODO: Add test to verify hash output matches expected for known input.
+- Expected: Correct MD5/SHA1 value, consistent results, no crash.
 
